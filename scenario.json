@@ -1,0 +1,70 @@
+{
+  "accounts": {
+    "account{0}": "0xECd752DBAC939AC3673B8F19A21E87f35772d41a"
+  },
+  "linkReferences": {},
+  "transactions": [
+    {
+      "timestamp": 1595441945967,
+      "record": {
+        "value": "0",
+        "parameters": [],
+        "abi": "0x54a8c0ab653c15bfb48b47fd011ba2b9617af01cb45cab344acd57c924d56798",
+        "contractName": "Storage",
+        "bytecode": "608060405234801561001057600080fd5b5060df8061001f6000396000f3006080604052600436106049576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680636057361d14604e578063b05784b8146078575b600080fd5b348015605957600080fd5b5060766004803603810190808035906020019092919050505060a0565b005b348015608357600080fd5b50608a60aa565b6040518082815260200191505060405180910390f35b8060008190555050565b600080549050905600a165627a7a72305820ba3dfb62d52cfad7b0efb865a111d0e1e1788dbfe1ff13c06a68106993d2fd760029",
+        "linkReferences": {},
+        "name": "",
+        "inputs": "()",
+        "type": "constructor",
+        "from": "account{0}"
+      }
+    },
+    {
+      "timestamp": 1595442010641,
+      "record": {
+        "value": "0",
+        "parameters": [
+          "555"
+        ],
+        "to": "created{1595441945967}",
+        "abi": "0x54a8c0ab653c15bfb48b47fd011ba2b9617af01cb45cab344acd57c924d56798",
+        "name": "store",
+        "inputs": "(uint256)",
+        "type": "function",
+        "from": "account{0}"
+      }
+    }
+  ],
+  "abis": {
+    "0x54a8c0ab653c15bfb48b47fd011ba2b9617af01cb45cab344acd57c924d56798": [
+      {
+        "constant": false,
+        "inputs": [
+          {
+            "name": "num",
+            "type": "uint256"
+          }
+        ],
+        "name": "store",
+        "outputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "constant": true,
+        "inputs": [],
+        "name": "retreive",
+        "outputs": [
+          {
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+      }
+    ]
+  }
+}
