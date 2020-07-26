@@ -30,4 +30,3 @@ contract SimpleStore {
 }
 
 // latest, by network, v2
-
